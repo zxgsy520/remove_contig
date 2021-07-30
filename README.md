@@ -9,9 +9,6 @@ Manuals
 
 - [Installation instructions](docs/INSTALL.md)
 - [Usage](docs/USAGE.md)
-- [FAQ](docs/FAQ.md)
-- 
-
 
 ./remove_contig -h
 usage: remove_contig [-h] -gd FILE -r FILE [--minlen INT] [-gc FLOAT] [-depth FLOAT] genome
