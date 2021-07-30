@@ -1,6 +1,7 @@
 remove_contig manual
 ===========
 ## <a name="quickusage"></a> Quick usage
+```
 usage: remove_contig [-h] -gd FILE -r FILE [--minlen INT] [-gc FLOAT] [-depth FLOAT] genome
 
 name:
@@ -9,7 +10,7 @@ name:
 attention:
     remove_contig.py genome.fasta --gc_depth length_gc.tsv --rna rna.gff>genome_new.fasta
 version: 1.0.1
-contact:  Xingguo Zhang "<invicoun@foxmail.com>"        
+contact:  Xingguo Zhang <invicoun@foxmail.com>       
 
 positional arguments:
   genome                Input genome file(fasta, fastq)
