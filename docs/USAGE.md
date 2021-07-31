@@ -50,3 +50,10 @@ remove_contig  genome.fasta --gc_depth genome.length_gc.tsv --rna genome.rRNA.gf
 
 
 ```
+Result display
+------------
+</p>
+<p align="center">
+  <img src="gc_depth.png" width = "300" height = "200" alt="flower group type"/>
+</p>
+
