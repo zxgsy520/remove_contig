@@ -52,8 +52,7 @@ remove_contig  genome.fasta --gc_depth genome.length_gc.tsv --rna genome.rRNA.gf
 ```
 Result display
 ------------
-</p>
 <p align="center">
-  <img src="https://github.com/zxgsy520/remove_contig/edit/main/docs/gc_depth.png" width = "300" height = "200" alt="GC-depth distribution map"/>
+  <img src="https://github.com/zxgsy520/remove_contig/edit/main/docs/gc_depth.png" width = "500" height = "500" alt="GC-depth distribution map"/>
 </p>
 
