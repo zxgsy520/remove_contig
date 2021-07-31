@@ -54,6 +54,6 @@ Result display
 ------------
 </p>
 <p align="center">
-  <img src="gc_depth.png" width = "300" height = "200" alt="flower group type"/>
+  <img src="https://github.com/zxgsy520/remove_contig/edit/main/docs/gc_depth.png" width = "300" height = "200" alt="GC-depth distribution map"/>
 </p>
 
