@@ -19,3 +19,4 @@ remove_contig requires the results of third-party software:
 * [bwa](https://github.com/lh3/bwa)
 * [barrnap](https://vicbioinformatics.com/software.barrnap.shtml)
 * [RNAmmer](http://www.cbs.dtu.dk/services/RNAmmer/)
+* [Blast](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
