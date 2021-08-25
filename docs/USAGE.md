@@ -42,7 +42,7 @@ barrnap --kingdom arc --threads 4 --quiet  genome.fasta > genome.rRNA.gff
 or 
 rnammer -S bac -m lsu,ssu,tsu -gff genome.rRNA.gff genome.fasta
 #Step 3: Remove contamination sequence
-remove_contig  genome.fasta --gc_depth genome.length_gc.tsv --rna genome.rRNA.gff --minlen 20000 --diff_gc 0.6 --diff_depth 0.6 >genome_rm.fasta
+remove_contig  genome.fasta --gc_depth genome.length_gc.tsv --rna genome.rRNA.gff --minlen 20000 --diff_gc 0.6 --diff_depth 0.6 >genome_new.fasta
 #Step 4: Confirm to remove data.
 #Align the removed contig with ncbi, delete mitochondria, chloroplasts or prokaryotes, and recover other sequences into the genome.
 #Step 5: Confirm the genome
