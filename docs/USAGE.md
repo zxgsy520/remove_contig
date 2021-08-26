@@ -2,15 +2,15 @@ remove_contig manual
 ===========
 ## <a name="quickusage"></a> Quick usage
 ```
-usage: remove_contig [-h] -gd FILE -r FILE [--minlen INT] [-gc FLOAT] [-depth FLOAT] genome
+usage: remove_contig [-h] -gd FILE -r FILE [--minlen INT] [-gc FLOAT] [-depth FLOAT] [--model] genome
 
 name:
     remove_contig.py -- Remove remove sequence
 
 attention:
     remove_contig.py genome.fasta --gc_depth length_gc.tsv --rna rna.gff>genome_new.fasta
-version: 1.0.1
-contact:  Xingguo Zhang <invicoun@foxmail.com>       
+version: 1.1.1
+contact:  Xingguo Zhang <invicoun@foxmail.com>        
 
 positional arguments:
   genome                Input genome file(fasta, fastq)
@@ -25,6 +25,7 @@ optional arguments:
                         Input removed GC difference ratio, default=0.5.
   -depth FLOAT, --diff_depth FLOAT
                         Input removal depth difference ratio, default=0.5.
+  --model               Use weight model.
  ```
 ===========
 ## <a name="quickusage"></a>example
